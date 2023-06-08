@@ -82,7 +82,7 @@ function App() {
             <Row gutter={10}>
               {
                 userPosts.filter(post => post.userId === user.id).map(post => {
-                  return <Card title={post.title} key={Math.random()} className='card'>
+                  return <Card title={post.title} key={Math.random()} className='card cardPost'>
 
                     <h4><span style={stylePad}>Пост номер {post.id % 10 != 0 ? post.id % 10 : 10}</span> </h4>
                     <p className='bodyP'>{post.body}</p>

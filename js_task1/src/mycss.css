@@ -80,3 +80,7 @@ details[open] > summary {
   padding: 15px;
   margin: 10px;
 }
+
+.cardPost {
+  background-color: rgb(144, 174, 200);
+}

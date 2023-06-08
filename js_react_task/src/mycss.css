@@ -1,0 +1,82 @@
+.common {
+  margin-left: 25px;
+}
+
+.classButton {
+  background-color: #5CDB95;
+  color: black;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 30px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 100, 0);
+  padding: 10px 16px;
+  min-height: 30px; 
+  min-width: 360px;
+  cursor: pointer;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.classButton:hover {
+  background-color: #029c2b;
+  transition: 0.7s;
+}
+
+.classButton:active {
+  background-color: #dcdc02;
+}
+
+.div {
+  display: grid;
+  justify-content: left;
+}
+
+.card {
+  border: 2px solid #000;
+  background-color: #5CDB95;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  width: 100%;
+  min-width: 500px;
+  max-width: 900px;
+}
+
+span {
+  color: blue;
+  font-size: 16px;
+  ;
+}
+
+details > summary {
+  padding: 5px;
+  background-color: #5CDB95;
+  color: #333;
+  border: 1px #5CDB95 solid;
+  cursor: pointer;
+  list-style: square;
+}
+
+/* details:hover {
+  background-color: #029c2b;
+  transition: 0.7;
+} */
+
+details[open] > summary {
+  color:#eee; 
+  background-color:#333;
+}
+
+.bodyP {
+  color: blue;
+}
+.ant-card-head-title {
+  font-size: 16px;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: firebrick;
+}
+
+.ant-row {
+  padding: 15px;
+  margin: 10px;
+}
